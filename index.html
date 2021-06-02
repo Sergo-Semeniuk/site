@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en, ru, uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Vollkorn:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+
+  <div class="wrapper">
+
+    <section class="fullscreen">
+      <div class="fullscreen__row">
+        <div class="fullscreen__body">
+          <div class="fullscreen__hello">
+            <p>Приветсвую вас на странице</p>
+          </div>
+          <div class="fullscreen__title">
+            <h1>Front-end розработчика</h1>
+          </div>
+          <div class="fullscreen__subtitle">
+            <p>html верстальщика</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <header class="header" id="header-menu">
+        <div class="container">
+          <div class="header-row">
+            <div class="header__theme">
+              <div class="header__theme-light">
+
+              </div>
+              <div class="header__theme-dark">
+
+              </div>
+            </div>
+            <div class="header__burger">
+              <span class="header__burger-span"></span>
+            </div>
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__list-items"><a class="header__link flowing-scroll" href=".fullscreen">Главная</a></li>
+                <li class="header__list-items"><a class="header__link flowing-scroll" href=".about">Обо мне</a></li>
+                <li class="header__list-items"><a class="header__link flowing-scroll" href=".services">Мои услуги</a></li>
+                <li class="header__list-items"><a class="header__link flowing-scroll" href=".skill">Навыки</a></li>
+                <li class="header__list-items"><a class="header__link flowing-scroll" href=".works">Мои работы</a></li>
+                <li class="header__list-items"><a class="header__link flowing-scroll" href=".footer">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header> 
+      
+      <main class="main">          
+
+        <section class="about">
+          <div class="container">
+            <div class="section__header">
+              <h2 class="section__title">Обо мне</h2>
+              <h3 class="section__subtitle">Тут я розкажу немного о себе</h3>
+            </div>
+            <div class="about__inner">
+              <div class="about__images ibg">
+                <img src="images/author.jpg" alt="">
+              </div>
+              <div class="about__info">
+                <div class="about__card">
+                  <h3 class="about__card-title">Семеюк Сергей Володимирович
+                  </h3>
+                  <p class="about__card-text"><span class="about__card-text--name">Дата рождения:</span>14 ноября 2021;</p>
+                  <p class="about__card-text"><span class="about__card-text--name">Город:</span>Украина, Винница;</p>
+                  <p class="about__card-text"><span class="about__card-text--name">Образование:</span>Неполное высшее образование;</p>
+                  <p class="about__card-text"><span class="about__card-text--name">Специальность:</span>Инженер КИПиА;</p>
+                  <p class="about__card-text"><span class="about__card-text--name">Владение языками:</span>український, русский, английский (Pre-Intermediate)</p>
+                  <p class="about__card-text"><span class="about__card-text--name">Обо мне:</span>свой путь програмирования начал з друзьями на учебе, и очень увлекся етим, и тепер я не собираюсь бросать ето дело.</p>
+                </div>
+                <a class="about__button" href="#">Скачать резюме / CV</a>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <section class="services">
+          <div class="container">
+            <div class="section__header">
+              <h2 class="section__title">Услуги</h2>
+              <h3 class="section__subtitle">Я предоставляю верстку с использованием следующих технологий</h3>
+            </div>
+
+            <div class="services__items">
+              <div class="services__card">
+                <div class="services__card-images">
+                  <img class="services__images" src="images/icons/html.svg" alt="">
+                  <img class="services__images" src="images/icons/css.svg" alt="">
+                  <img class="services__images" src="images/icons/js.svg" alt="">
+                </div>
+                <h4 class="services__card-subtitle">html+css+js</h4>
+                <p class="services__card-text">Совнеменная адаптивная верстка на основе макетов созданых дизайнером</p>
+              </div>
+              
+              <div class="services__card">
+                <div class="services__card-images">
+                  <img class="services__images" src="images/icons/pc.svg" alt="">
+                </div>
+                <h4 class="services__card-subtitle">Валидность</h4>
+                <p class="services__card-text">Соблюдение стандартов W3C, семантическая розметка кода</p>
+              </div>
+              
+              <div class="services__card">
+                <div class="services__card-images">
+                  <img class="services__images" src="images/icons/bem.svg" alt="">
+                </div>
+                <h4 class="services__card-subtitle">Методология БЕМ</h4>
+                <p class="services__card-text">Методология БЕМ позволяет розделить интерфейс на независимие блоки, которие можна использовать повторно</p>
+              </div>
+              
+              <div class="services__card">
+                <div class="services__card-images">
+                  <img class="services__images" src="images/icons/gulp.svg" alt="">
+                </div>
+                <h4 class="services__card-subtitle">Gulp</h4>
+                <p class="services__card-text">Gulp - ето таск-менеджер для автоматического виплнения заданий, которие зделают проект лучше</p>
+              </div>
+              
+              <div class="services__card">
+                <div class="services__card-images">
+                  <img class="services__images" src="images/icons/scss.svg" alt="">
+                </div>
+                <h4 class="services__card-subtitle">Прероцесоры</h4>
+                <p class="services__card-text">Для увеличение скорости роботы исполюзую препроцесоры такие как SASS, SCSS</p>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        <section class="skill">
+          <div class="container">
+            <div class="section__header">
+              <h2 class="section__title">Навыки</h2>
+              <h3 class="section__subtitle">Тут я розкажу тебе какими навыками я владею, и на сколько хорошо</h3>
+            </div>
+            <div class="skill__row">
+              <div class="skill__inner">
+                <div class="skill__inner-items">
+                  <div class="skill__inner-display">
+                    <h6 class="skill__inner-title">HTML</h6>
+                    <p class="skill__inner-percent">80%</p>
+                  </div>
+                  <div class="skill__inner-line">
+                    <div class="skill__inner-progres skill__inner-progres_html skill-weiting"></div>
+                  </div>
+                </div>
+
+                <div class="skill__inner-items">
+                  <div class="skill__inner-display">
+                    <h6 class="skill__inner-title">CSS</h6>
+                    <p class="skill__inner-percent">80%</p>
+                  </div>
+                  <div class="skill__inner-line">
+                    <div class="skill__inner-progres skill__inner-progres_css skill-weiting"></div>
+                  </div>
+                </div>
+
+                <div class="skill__inner-items">
+                  <div class="skill__inner-display">
+                    <h6 class="skill__inner-title">SCSS, SASS</h6>
+                    <p class="skill__inner-percent">65%</p>
+                  </div>
+                  <div class="skill__inner-line">
+                    <div class="skill__inner-progres skill__inner-progres_scss skill-weiting"></div>
+                  </div>
+                </div>
+
+                <div class="skill__inner-items">
+                  <div class="skill__inner-display">
+                    <h6 class="skill__inner-title">JavaScript</h6>
+                    <p class="skill__inner-percent">20%</p>
+                  </div>
+                  <div class="skill__inner-line">
+                    <div class="skill__inner-progres skill__inner-progres_js skill-weiting"></div>
+                  </div>
+                </div>
+
+                <div class="skill__inner-items">
+                  <div class="skill__inner-display">
+                    <h6 class="skill__inner-title">JQuery</h6>
+                    <p class="skill__inner-percent">15%</p>
+                  </div>
+                  <div class="skill__inner-line">
+                    <div class="skill__inner-progres skill__inner-progres_jq skill-weiting"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill__inner">
+                <p class="skill__inner-text">Для верстки использую Photoshop, Figma, Avocode, што позволяет работать с разными макетами. Имею огромный потенциал для учёбы чему то новому, и список моих навыков та умений планирую не только улучшать, но и пополнять. </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="works">
+          <div class="container">
+            <div class="section__header">
+              <h2 class="section__title">Мои работы</h2>
+              <h3 class="section__subtitle">Здесь вы можете посмотреть примеры моих работ и их качество</h3>
+            </div>
+            <div class="works__row">
+
+              <div class="works__item ibg">
+                <img class="works__item-images" src="images/white1-bg.jpg" alt="work">
+                <div class="works__item-overlay">
+                  <div class="works__overlay-inner">
+                    <h6 class="works__item-title">Title</h6>
+                    <a class="works__item-link" href="#">Открыть сайт</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="works__item ibg">
+                <img class="works__item-images" src="images/white1-bg.jpg" alt="work">
+                <div class="works__item-overlay">
+                  <div class="works__overlay-inner">
+                    <h6 class="works__item-title">Title</h6>
+                    <a class="works__item-link" href="#">Открыть сайт</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="works__item ibg">
+                <img class="works__item-images" src="images/white1-bg.jpg" alt="work">
+                <div class="works__item-overlay">
+                  <div class="works__overlay-inner">
+                    <h6 class="works__item-title">Title</h6>
+                    <a class="works__item-link" href="#">Открыть сайт</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="works__item ibg">
+                <img class="works__item-images" src="images/white1-bg.jpg" alt="work">
+                <div class="works__item-overlay">
+                  <div class="works__overlay-inner">
+                    <h6 class="works__item-title">Title</h6>
+                    <a class="works__item-link" href="#">Открыть сайт</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="works__item ibg">
+                <img class="works__item-images" src="images/white1-bg.jpg" alt="work">
+                <div class="works__item-overlay">
+                  <div class="works__overlay-inner">
+                    <h6 class="works__item-title">Title</h6>
+                    <a class="works__item-link" href="#">Открыть сайт</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="works__item ibg">
+                <img class="works__item-images" src="images/white1-bg.jpg" alt="work">
+                <div class="works__item-overlay">
+                  <div class="works__overlay-inner">
+                    <h6 class="works__item-title">Title</h6>
+                    <a class="works__item-link" href="#">Открыть сайт</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <h5 class="footer__title">Св’язь со мной</h5>
+          <div class="footer__social-row">
+
+            
+              <a class="footer__social-link" href="" >
+                <img class="footer__social-icon" src="images/icons/instagram.svg" alt="">
+              </a>
+            
+
+            
+              <a class="footer__social-link" href="" >
+                <img class="footer__social-icon" src="images/icons/telegram.svg" alt="">
+              </a>
+            
+
+            
+              <a class="footer__social-link" href="" >
+                <img class="footer__social-icon" src="images/icons/mail.svg" alt="">
+              </a>
+            
+
+          </div>
+        </div>
+      </footer>
+  </div>
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
